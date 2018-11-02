@@ -1,6 +1,7 @@
 #! /usr/bin/python3.6
 
-import glob, shlex
+import glob
+import shlex
 from utils.command_execution import run
 
 files = glob.glob("*.mkv") # may want to work this into command_execution
