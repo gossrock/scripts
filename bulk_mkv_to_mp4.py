@@ -1,4 +1,7 @@
 #! /usr/bin/python3.6
+import sys
+current_dir = sys.path[0]
+sys.path += [current_dir+'/utils']  # add utils repository to PYTHONPATH
 
 import glob
 import shlex
